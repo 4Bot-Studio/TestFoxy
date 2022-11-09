@@ -2,5 +2,6 @@
   "name": "ZOOOM",
   "author": "CodTEN",
   "description": "CODTEN",
-  "version": 1.0
+  "version": 1.0,
+  "minGameVersion": 136
 }
