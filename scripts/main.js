@@ -8,12 +8,7 @@ function setZoom(min, max) {
 
 Events.run(Trigger.update, () => {
     //TODO convert to linear scale
-    const newMinZoom = 2.5 - Core.settings.getInt("eui-maxZoom", 10)/5;
-
-    if (newMinZoom != minZoom) {
-        setZoom(newMinZoom, maxZoom);
-        minZoom = newMinZoom;
-    }
+        setZoom(minZoom, maxZoom);
 });
 
 setZoom(minZoom, maxZoom);
